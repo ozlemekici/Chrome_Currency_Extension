@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" type="text/css" href="./popup.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="currency">
+            <p id="heading">Amount</p>
+            <hr>
+            <input type="number" class="buttons" id="amount-one" placeholder="Enter amount" value="1">
+            <select id="currency-one" class="c" data-size="5">
+                <option value="USD" selected="selected">USD / United States Dollars</option>
+                <option value="TRY">TRY / Turkish Lira</option>
+                <option value="EUR">EURO / Euro</option>
+                <option value="AUD">AUD / Australia Dollars</option>
+                <option value="BRL">BRL / Brazil Real</option>
+                <option value="CNY">CNY / China Yuan Renmimbi</option>
+                <option value="DKK">DKK / Denmark Kroner</option>
+                <option value="HKD">HKD / Hong Kong Dollars</option>
+                <option value="INR">INR / India Rupees</option>
+                <option value="JPY">JPY / Japan Yen</option>
+                <option value="MYR">MYR / Malaysia Ringgit</option>
+                <option value="MXN">MXN / Mexico Pesos</option>
+                <option value="NZD">NZD / New Zealand Dollars</option>
+                <option value="NOK">NOK / Norway Kroner</option>
+                <option value="PKR">PKR / Pakistan Rupees</option>
+                <option value="PLN">PLN / Poland Zloty</option>
+                <option value="RUB">RUB / Russia Rubles</option>
+                <option value="SAR">SAR / Saudi Arabia Riyal</option>
+                <option value="SGD">SGD / Singapore Dollars</option>
+                <option value="ZAR">ZAR / South Africa Rand</option>
+                <option value="KRW">KRW / South Korea Won</option>
+                <option value="SEK">SEK / Sweden Krona</option>
+                <option value="CHF">CHF / Switzerland Francs</option>
+                <option value="TWD">TWD / Taiwan Dollars</option>
+                <option value="THB">THB / Thailand Baht</option>
+                <option value="GBP">GBP / United Kingdom Pounds</option>
+            </select>
+
+        </div>
+        <div class="swap-rate container">
+            <button class="btn" id="swap">Swap</button>
+        </div>
+        <div>
+            <select id="currency-two" class="c">
+                <option value="TRY" selected="selected">TRY / Turkish Lira</option>
+                <option value="USD">USD / United States Dollars</option>
+                <option value="EUR">EURO / Euro</option>
+                <option value="AUD">AUD / Australia Dollars</option>
+                <option value="BRL">BRL / Brazil Real</option>
+                <option value="CNY">CNY / China Yuan Renmimbi</option>
+                <option value="DKK">DKK / Denmark Kroner</option>
+                <option value="HKD">HKD / Hong Kong Dollars</option>
+                <option value="INR">INR / India Rupees</option>
+                <option value="JPY">JPY / Japan Yen</option>
+                <option value="MYR">MYR / Malaysia Ringgit</option>
+                <option value="MXN">MXN / Mexico Pesos</option>
+                <option value="NZD">NZD / New Zealand Dollars</option>
+                <option value="NOK">NOK / Norway Kroner</option>
+                <option value="PKR">PKR / Pakistan Rupees</option>
+                <option value="PLN">PLN / Poland Zloty</option>
+                <option value="RUB">RUB / Russia Rubles</option>
+                <option value="SAR">SAR / Saudi Arabia Riyal</option>
+                <option value="SGD">SGD / Singapore Dollars</option>
+                <option value="ZAR">ZAR / South Africa Rand</option>
+                <option value="KRW">KRW / South Korea Won</option>
+                <option value="SEK">SEK / Sweden Krona</option>
+                <option value="CHF">CHF / Switzerland Francs</option>
+                <option value="TWD">TWD / Taiwan Dollars</option>
+                <option value="THB">THB / Thailand Baht</option>
+                <option value="GBP">GBP / United Kingdom Pounds</option>
+            </select>
+            <div class="convert">
+                <button class="btn-2" id="conversion">convert</button>
+            </div>
+            <div id="amount-two"></div>
+
+
+            // render time calculator
+            <p id="heading2">Render Time</p>
+            <hr>
+            </p>
+            <div id="num1"></div>
+            <div id="num2"></div>
+            <div id="num3"></div>
+        </div>
+
+
+
+
+
+    </div>
+    </div>
+
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

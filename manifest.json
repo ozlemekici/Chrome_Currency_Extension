@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Currency Converter",
+    "description": "Currency converter for Google Chrome fast and easy to use.",
+    "version": "1.0.0",
+    "icons": {
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png" 
+     },
+    
+    "browser_action":{
+        "default_icon": "icon128.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "https://www.google.com/"
+        
+    ]
+
+}
